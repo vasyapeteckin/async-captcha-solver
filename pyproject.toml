@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "A versatile captcha solver module integrating popular captcha-solving services like 2Captcha, AntiCaptcha, and more."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "aiohttp>=3.11.11",
+]
