@@ -1,5 +1,5 @@
-from captcha_solver.captcha_methods_mixin import CaptchaMethodsMixin
-from captcha_solver.http_client.abc import AbstractHTTPClient
+from async_captcha_solver.captcha_methods_mixin import CaptchaMethodsMixin
+from async_captcha_solver.http_client.abc import AbstractHTTPClient
 
 
 class AntiCaptchaClient(CaptchaMethodsMixin):

@@ -1,9 +1,9 @@
 import logging
 from typing import Literal
 
-from captcha_solver.http_client.aiohttp_client import AiohttpClient
-from captcha_solver.http_client.abc import AbstractHTTPClient
-from captcha_solver.abc import AbstractCaptchaClient
+from async_captcha_solver.http_client.aiohttp_client import AiohttpClient
+from async_captcha_solver.http_client.abc import AbstractHTTPClient
+from async_captcha_solver.abc import AbstractCaptchaClient
 
 
 class CaptchaMethodsMixin(AbstractCaptchaClient):

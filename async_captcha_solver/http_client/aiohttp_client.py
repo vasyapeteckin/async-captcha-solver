@@ -6,7 +6,7 @@ from typing import Literal
 
 from aiohttp import ClientSession, ContentTypeError
 
-from captcha_solver.http_client.abc import AbstractHTTPClient
+from async_captcha_solver.http_client.abc import AbstractHTTPClient
 
 
 class AiohttpClient(AbstractHTTPClient):

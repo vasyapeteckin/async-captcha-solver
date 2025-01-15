@@ -1,7 +1,7 @@
 import asyncio
 import logging
 
-from captcha_solver import CapMonsterClient
+from async_captcha_solver import CapMonsterClient
 
 
 async def main():

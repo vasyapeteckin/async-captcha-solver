@@ -1,8 +1,8 @@
 from typing import Literal
 
-from captcha_solver.http_client.abc import AbstractHTTPClient
-from captcha_solver.abc import AbstractCaptchaClient
-from captcha_solver.captcha_services import AntiCaptchaClient, CapMonsterClient, TwoCaptchaClient
+from async_captcha_solver.http_client.abc import AbstractHTTPClient
+from async_captcha_solver.abc import AbstractCaptchaClient
+from async_captcha_solver.captcha_services import AntiCaptchaClient, CapMonsterClient, TwoCaptchaClient
 
 
 class CaptchaSolver:

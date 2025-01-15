@@ -36,7 +36,7 @@ pip install async-captcha-solver
 import asyncio
 import logging
 
-from captcha_solver import CaptchaSolver
+from async_captcha_solver import CaptchaSolver
 
 
 async def main():
