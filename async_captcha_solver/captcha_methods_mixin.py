@@ -37,8 +37,6 @@ class CaptchaMethodsMixin(AbstractCaptchaClient):
         return response
 
     async def _create_task(self, task_payload: dict):
-        if not task_payload.get('proxy_string', False):
-            task_payload.pop("proxy_string")
         payload = {
             "clientKey": self.api_key,
             "task": task_payload
